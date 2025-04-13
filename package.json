@@ -6,7 +6,9 @@
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "build": "tsc",
-    "test": "echo \"No tests yet\""
+    "test": "echo \"No tests yet\"",
+    "dev": "npm run start",
+    "lint": "eslint . --ext .ts"
   },
   "dependencies": {
     "@types/cors": "^2.8.17",
